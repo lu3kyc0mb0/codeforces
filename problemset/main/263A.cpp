@@ -2,6 +2,8 @@
 #define ll long long
 using namespace std;
 int main(){
+    ios::sync_with_stdio(0);
+    cin.tie(0);
     ll x=0, z=0, val;
     for(ll i=0;i<5;i++)
         for(ll j=0;j<5;j++){
