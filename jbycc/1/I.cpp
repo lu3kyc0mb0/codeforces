@@ -12,8 +12,9 @@ int main(){
         ll v;
         cin >> v;
         cs+=v;
-        if(cs%s==0) c++;
-        a[cs]++;
+        ll r=((cs%s)+s)%s;
+        if(a.count(r)) c+=a[r];
+        a[r]++;
     }
     cout << c << "\n";
 }
